@@ -1,9 +1,9 @@
 import { useRef, useState } from 'react';
 import UniverSheet from './components/UniverSheet';
-import { DEFAULT_WORKBOOK_DATA } from './assets/default-workbook-data';
+import WIDE_WORKBOOK_DATA from './assets/wide-workbook-data';
 
 function App () {
-  const [data] = useState(DEFAULT_WORKBOOK_DATA);
+  const [data] = useState(WIDE_WORKBOOK_DATA);
   const univerRef = useRef();
 
   return (
